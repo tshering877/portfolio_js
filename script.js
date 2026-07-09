@@ -12,6 +12,17 @@ const navItems = [
 const projects = [
   {
     number: "01",
+    title: "BhutanDevelopersConnect",
+    description:
+      "A developer networking platform designed to connect developers in Bhutan, support team formation, project showcasing, progress sharing, and peer-to-peer support.",
+    images: ["assets/images/bhutan.jpg"],
+    imageClass: "bhutan-photo",
+    tags: ["Frontend", "Community", "Web App"],
+    github: "https://github.com/tshering877/developersconnect.git",
+    reverse: false
+  },
+  {
+    number: "02",
     title: "GameFit AI",
     description:
       "Real-time motion-controlled gaming platform using Python, MediaPipe, OpenCV, and PyAutoGUI. I worked on backend components, gesture-to-input mapping, and low-latency processing.",
@@ -21,7 +32,7 @@ const projects = [
     reverse: false
   },
   {
-    number: "02",
+    number: "03",
     title: "Hospitality ERP Hackathon 2025",
     description:
       "Built a Business Intelligence dashboard for customer segmentation and analytics. The project achieved third place in the Hospitality ERP Hackathon 2025.",
@@ -32,16 +43,16 @@ const projects = [
     reverse: true
   },
   {
-    number: "03",
-    title: "BhutanDevelopersConnect",
+    number: "04",
+    title: "Goenchay",
     description:
-      "A developer networking platform designed to connect developers in Bhutan, support team formation, project showcasing, progress sharing, and peer-to-peer support.",
-    images: ["assets/images/bhutan.jpg"],
-    imageClass: "bhutan-photo",
-    tags: ["Frontend", "Community", "Web App"],
-    github: "https://github.com/tshering877/developersconnect.git",
+      "An e-commerce platform for authentic Bhutanese traditional textiles featuring product catalogues, shopping cart, secure authentication, payment, order tracking, and responsive interfaces built with React and TypeScript.",
+    images: ["assets/images/goenchay.png"],
+    imageClass: "goenchay-photo",
+    tags: ["React", "TypeScript", "E-commerce", "Frontend"],
+    github: "https://github.com/tshering877/goenchay.git",
     reverse: false
-  }
+  },
 ];
 
 const skills = [

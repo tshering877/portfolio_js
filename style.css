@@ -36,8 +36,6 @@ img {
   display: block;
 }
 
-
-
 .header {
   position: sticky;
   top: 0;
@@ -90,8 +88,6 @@ img {
   cursor: pointer;
 }
 
-/* GLOBAL SECTION */
-
 .section {
   max-width: 1200px;
   margin: auto;
@@ -119,8 +115,6 @@ img {
   line-height: 1.05;
   letter-spacing: -2px;
 }
-
-/* HERO */
 
 .hero {
   min-height: 92vh;
@@ -253,7 +247,6 @@ img {
   font-size: 14px;
 }
 
-/* SKILLS SECTION LIKE YOUR PHOTO */
 
 #skills {
   max-width: 100%;
@@ -376,9 +369,12 @@ img {
     width: 700px;
 }
 
-/* ---------- BHUTAN PROJECT ---------- */
-
 .project-images img.bhutan-photo {
+    height: 500px;
+    width: 600px;
+}
+
+.project-images img.goenchay-photo {
     height: 500px;
     width: 600px;
 }
